@@ -1,0 +1,17 @@
+
+
+# Configuracion privada
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Archivos de Windows
+Thumbs.db
+.DS_Store
+# Conexion privada de Oracle
+/config/conexion.php
